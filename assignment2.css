@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar .pnav {
+    margin-right: 60%;
+}
+
+.navbar p {
+    color: grey;
+}
+
+.top {
+    width: 100%;
+    background-image: url(images/personal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    opacity: 1;
+
+}
+
+.top p {
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-align: justify;
+    color: white;
+    padding: 20px
+}
+
+.top button {
+    padding: 10px;
+    margin: 25px;
+    color: white;
+    border: none;
+    background-color: gray;
+    font-weight: 900;
+}
+
+.content {
+    width: 100%;
+
+    /* margin: 0 10%; */
+
+}
+
+.collall {
+    width: 90%;
+    margin: auto;
+}
+
+.content .dd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.d1 {
+    border: 1px solid black;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.hr {
+    width: 5%;
+    height: 2px;
+    background-color: grey;
+    margin: auto;
+
+}
+
+meter {
+    width: 100%;
+}
+
+.medium {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 60px;
+}
+
+.play {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 10px;
+}
+
+.leftMeduim .date hr {
+    margin-left: 0;
+    width: 16%;
+    margin-right: 5px;
+    color: gray;
+}
+
+.leftMeduim .play .date h3 {
+
+    color: gray;
+}
+
+.leftMeduim .play .para {
+
+    color: gray;
+}
+
+.leftMeduim hr {
+    width: 80%;
+}
+
+.righttMeduim {
+    display: grid;
+    flex-wrap: wrap;
+
+}
+
+.righttMeduim h2 {
+    color: gray;
+}
+
+.righttMeduim label {
+    color: gray;
+}
+
+.righttMeduim p {
+    color: gray;
+}
+
+.footer {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    flex-wrap: wrap;
+  
+
+}
+
+
+.footer .spn {
+    color: red;
+}
+
+.footer img {
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 13px;
+}
+
+.footer .hh {
+    display: flex;
+    gap: 20px;
+
+}
+
+.icon {
+
+    margin-top: 20px;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.end {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
